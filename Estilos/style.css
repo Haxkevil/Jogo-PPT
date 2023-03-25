@@ -1,0 +1,30 @@
+body{
+  background: black;
+  color: white;
+}
+section{
+  width: 95%;
+  display: grid;
+  gap:40px 20px;
+  grid-template-columns:repeat(3, 60px);
+  justify-content: center;
+  
+}
+img{
+  display: inline-block;
+  width: 100%;
+}
+.item1{
+  grid-column:1/4;
+  margin:0 auto;
+  width: 80px;
+}
+.ppt{
+
+}
+.in{
+  display:block;
+  border: 1px solid white;
+  width: 80px;
+  padding: 4px 10px;
+}
