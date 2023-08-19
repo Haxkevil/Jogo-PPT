@@ -1,29 +1,42 @@
-body{
+body {
   background: black;
   color: white;
 }
-section{
+
+section {
   width: 95%;
   display: grid;
-  gap:40px 20px;
-  grid-template-columns:repeat(3, 60px);
+  gap: 40px 20px;
+  grid-template-columns: repeat(3, 60px);
   justify-content: center;
-  
+
 }
-img{
+
+img {
   display: inline-block;
   width: 100%;
 }
-.item1{
-  grid-column:1/4;
-  margin:0 auto;
+
+.item1 {
+  grid-column: 1/4;
+  margin: 0 auto;
   width: 80px;
 }
-.ppt{
+
+#jogador,
+.ppt {
+  border: 1px solid #FFAE00;
+  border-radius: 5px;
+}
+
+#pc {
+  border: 1px solid #21A6FF;
+  border-radius: 5px;
 
 }
-.in{
-  display:block;
+
+.in {
+  display: block;
   border: 1px solid white;
   width: 80px;
   padding: 4px 10px;
